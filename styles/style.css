@@ -101,22 +101,23 @@
   line-height: 1.15;
   text-transform: uppercase;
   letter-spacing: 30px;
+  margin-right: -30px; 
 }
 
 .aligned-text {
   display: block;
 }
 
-.aligned-text_left {
-  text-align: left;
+.aligned-text_left { 
+  text-align: left; 
 }
 
-.aligned-text_center {
-  text-align: center;
+.aligned-text_center { 
+  text-align: center; 
 }
 
-.aligned-text_right {
-  text-align: right;
+.aligned-text_right { 
+  text-align: right; 
 }
 
 .no-letter-spacing {
@@ -172,7 +173,7 @@
 }
 
 .lots__card-list-item {
-  min-height: 596px;
+  min-height: 596px; 
 }
 
 .card-link {
@@ -250,7 +251,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 .about__logo-image {
@@ -260,8 +261,8 @@
 .about__title {
   font-size: 40px;
   text-transform: uppercase;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 70px; 
+  margin-bottom: 50px;
 }
 
 .about__text {
@@ -276,7 +277,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr; 
   align-items: start;
-  padding: 0 50px 50px;
+  padding: 180px 50px 50px; 
 }
 
 .footer .address {
@@ -312,6 +313,7 @@
   display: flex;
   gap: 48px;
   list-style: none;
+  align-items: center;
 }
 
 .footer__social-icon {
