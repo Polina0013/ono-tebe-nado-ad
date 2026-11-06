@@ -107,11 +107,21 @@
   display: block;
 }
 
-.aligned-text_left { text-align: left; }
-.aligned-text_center { text-align: center; }
-.aligned-text_right { text-align: right; }
+.aligned-text_left {
+  text-align: left;
+}
 
-.no-letter-spacing { letter-spacing: 0; }
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
 
 .cover__description {
   position: relative;
@@ -144,7 +154,7 @@
 }
 
 .lots {
-  padding: 180px 25px 120px;
+  padding: 180px 50px 120px;
 }
 
 .lots__heading {
@@ -162,7 +172,6 @@
 }
 
 .lots__card-list-item {
-  width: 334px;
   min-height: 596px;
 }
 
